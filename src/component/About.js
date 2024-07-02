@@ -15,7 +15,7 @@ function About() {
         <p>lorem ipsume dkfjdkfj lorem ipsume dkfjdkfjlorem ipsume dkfjdkfjlorem ipsume dkfjdkfjlorem ipsume dkfjdkfjlorem ipsume dkfjdkfjlorem ipsume dkfjdkfjlorem ipsume dkfjdkfjlorem ipsume dkfjdkfjlorem ipsume dkfjdkfjlorem ipsume dkfjdkfjlorem ipsume dkfjdkfjlorem ipsume dkfjdkfj</p>
         <br></br>
         <br></br>
-        <NavLink to="/">Button</NavLink>
+        <NavLink to="/" class="bg-blue-400 m-2 p-2 rounded-lg hover:text-white">Button</NavLink>
     </div>
   )
 }
