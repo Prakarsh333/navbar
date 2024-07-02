@@ -1,5 +1,3 @@
-import Navbar from "./component/Navbar";
-import About from "./component/About";
 import { Route,Routes } from "react-router-dom";
 import SideBar from "./component/SideBar";
 import Draft from "./pages/Draft";
