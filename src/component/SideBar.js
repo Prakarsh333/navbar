@@ -133,7 +133,7 @@ const MVPdocuments = [
     text: "New",
     alt: "New Icon",
     isIndented: false,
-    link: "/DraftAdd",
+    link: "/Draft",
   },
   {
     iconSrc:
@@ -141,7 +141,7 @@ const MVPdocuments = [
     text: "Draft",
     alt: "Draft Icon",
     isIndented: false,
-    link: "/Draft",
+    link: "/RaisedToStore",
   },
   {
     iconSrc:
@@ -149,7 +149,7 @@ const MVPdocuments = [
     text: "Raised to Stores",
     alt: "Raised to Stores Icon",
     isIndented: false,
-    link: "/MVPRaisedToStore",
+    link: "/ApprovedByStore",
   },
   {
     iconSrc:
@@ -157,7 +157,7 @@ const MVPdocuments = [
     text: "History",
     alt: "History Icon",
     isIndented: false,
-    link: "MVPHistory",
+    link: "/History",
   },
 ];
 const PurchaseOrderdocuments = [
@@ -231,6 +231,21 @@ function SideBar() {
   return (
     <>
       <div class="flex-row shadow-lg bg-white shadow-blue-300 h-screen w-[280px]">
+
+      <section className="flex flex-col justify-center text-sm font-semibold text-center text-white max-w-[360px] h-[114px]">
+          <header className="flex justify-center items-center px-0 py-6 w-full bg-blue-500">
+            <div className="flex flex-col items-center max-w-full w-[146px]">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/bc8430b248b8458ce9cd02956c0432cc02df68213036ac841e9296c9ab3ec321?apiKey=d07d3de89fb2406f80b717f88505014b&"
+                alt="Location: Jubilee Hills"
+                className="w-full aspect-[3.03]"
+              />
+              <p className="mt-2">Jubilee Hills</p>
+            </div>
+          </header>
+        </section>
+
         <div className="flex gap-0 justify-between bg-white flex-wrap w-full pt-5">
           <section className="flex flex-col pb-1 text-base font-semibold bg-white w-[280px] h-auto">
             <NavLink to="/">
